@@ -43,6 +43,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../../assets/scss/setting/mixins.scss";
 // movies__section
 .movies__wrap {
   overflow: hidden;

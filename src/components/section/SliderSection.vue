@@ -120,6 +120,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../../assets/scss/setting/mixins.scss";
 .swiper {
   overflow: visible;
 }
