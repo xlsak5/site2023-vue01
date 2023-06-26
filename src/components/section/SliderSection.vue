@@ -9,7 +9,6 @@
         :space-between="50"
         navigation
         :pagination="{ clickable: true }"
-        :scrollbar="{ draggable: true }"
         :autoplay="{
           delay: 2500,
           disableOnInteraction: false,

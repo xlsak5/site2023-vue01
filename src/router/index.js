@@ -14,7 +14,7 @@ const routes = [
   },
   {
     path: "/intro",
-    name: "IntroView",
+    name: "introview",
     component: IntroView,
   },
   {

@@ -1,4 +1,5 @@
 <template>
+  <ContTitle title="unsplash" />
   <UnsplashSlider />
   <UnsplashSearch />
   <UnsplashTag />
@@ -6,6 +7,7 @@
 </template>
 
 <script>
+import ContTitle from "@/components/layout/ContTitle.vue";
 import UnsplashCont from "@/components/unsplash/UnsplashCont.vue";
 import UnsplashSearch from "@/components/unsplash/UnsplashSearch.vue";
 import UnsplashSlider from "@/components/unsplash/UnsplashSlider.vue";
@@ -14,6 +16,7 @@ import { ref } from "vue";
 
 export default {
   components: {
+    ContTitle,
     UnsplashCont,
     UnsplashSearch,
     UnsplashSlider,

@@ -1,5 +1,15 @@
 <template>
-  <div>
-    <section>포트</section>
-  </div>
+  <main>
+    <PortfolioCont />
+  </main>
 </template>
+
+<script>
+import PortfolioCont from "@/components/portfolio/PortfolioCont.vue";
+
+export default {
+  components: {
+    PortfolioCont,
+  },
+};
+</script>

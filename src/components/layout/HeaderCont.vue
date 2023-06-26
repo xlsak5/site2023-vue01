@@ -12,7 +12,7 @@
       <nav className="header__nav" role="navigation">
         <ul>
           <li>
-            <router-link to="/home">소개</router-link>
+            <router-link to="/intro">소개</router-link>
           </li>
           <li>
             <router-link to="/port">포트폴리오</router-link>
@@ -80,7 +80,7 @@
             background-color: var(--color_body);
             position: absolute;
             left: 10px;
-            bottom: -2px;
+            bottom: -8px;
             transform: scaleX(0);
             transition: all 0.3s ease;
           }
